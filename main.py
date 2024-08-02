@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, request
 import requests
 from pprint import pprint
+import os
 
 
 app = Flask(__name__)
@@ -8,7 +9,7 @@ app = Flask(__name__)
 # API_password = LungShao
 # Artsy_API_Pass = Meruem321@
 EMAIL = "avishek.npt@gmail.com"
-BEARER_TOKEN = "Your Bearer token"
+BEARER_TOKEN = os.environ.get("BEARER_TOKEN")
 API = "https://the-one-api.dev/v2"
 headers = {
     "Authorization": f"Bearer {BEARER_TOKEN}"
