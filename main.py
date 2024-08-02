@@ -107,4 +107,4 @@ def all_books():
     return render_template("movies.html", books = response.json()["docs"])
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True)
