@@ -22,19 +22,18 @@ Welcome to **The Lord of the Rings Information Hub**, a comprehensive web applic
    git clone https://github.com/yourusername/lotr-info-hub.git
    cd lotr-info-hub
 
+2. **Install dependencies**:
+```bash
+   pip install -r requirements.txt
+```
 
-## Install dependencies:
+3. **Run the application**:
+```bash
+   python app.py
+```
 
-pip install -r requirements.txt
-
-
-## Run the application:
-
-python app.py
+4. **Open your browser and go to http://localhost:5000 to explore The Lord of the Rings Information Hub.**
 
 
-## Open your browser and go to http://localhost:5000 to explore The Lord of the Rings Information Hub.
-
-
-## Contributing
+5. **Contributing**
 Feel free to open issues or submit pull requests. Contributions are always welcome!
